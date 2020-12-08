@@ -29,4 +29,4 @@ $resp = SendSMS($url);
 $jd_resp = json_decode($resp, true);
 $sms_status = ($jd_resp['status']);
 
-echo($sms_status); // sussess or failure
+echo($sms_status); // success or failure
